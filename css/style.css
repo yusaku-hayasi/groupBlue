@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+.gl-header{
+background: blue ;
+
+}
+
+.gl-header a{
+  color: red;
+}
+
+.carousel-inner img{
+  height: 600px;
+}
