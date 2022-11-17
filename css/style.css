@@ -1,15 +1,15 @@
 @charset "UTF-8";
-
+/*-------------------------
+  グローバル
+-------------------------*/
 .gl-header {
   background: blue;
 }
 
-.gl-header a {
-  color: red;
-}
-
-.carousel-inner img {
-  height: 600px;
+footer {
+  color: #333;
+  width: 100%;
+  background-color: #08f;
 }
 /*-------------------------
   初期化
@@ -20,10 +20,17 @@ a {
 }
 
 /*-------------------------
-  グローバル
+  top
 -------------------------*/
-footer {
-  color: #333;
-  width: 100%;
-  background-color: #08f;
+.gl-header a {
+  color: red;
+}
+
+.carousel-inner h2{
+  color: blue;
+}
+
+
+.carousel-inner img {
+  height: 600px;
 }
